@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  HG_ShoppingMall
+//
+//  Created by Lindashuai on 2019/11/25.
+//  Copyright © 2019 Lindashuai. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SizeHeader.h"
+#import "BaseNavigationManager.h"
+
+#endif /* PrefixHeader_pch */

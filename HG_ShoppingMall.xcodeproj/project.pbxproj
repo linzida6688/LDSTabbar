@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8D232DFA0C767C0AC38326 /* libPods-HG_ShoppingMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F7EF4EA150FCA996AE5F20 /* libPods-HG_ShoppingMall.a */; };
+		FB097F6D238B62A800148893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB097F6C238B62A800148893 /* AppDelegate.m */; };
+		FB097F70238B62A800148893 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB097F6F238B62A800148893 /* ViewController.m */; };
+		FB097F73238B62A800148893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB097F71238B62A800148893 /* Main.storyboard */; };
+		FB097F75238B62A900148893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB097F74238B62A900148893 /* Assets.xcassets */; };
+		FB097F78238B62A900148893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB097F76238B62A900148893 /* LaunchScreen.storyboard */; };
+		FB097F7B238B62A900148893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB097F7A238B62A900148893 /* main.m */; };
+		FB09813A238B6A6600148893 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB098128238B6A6600148893 /* BaseViewController.m */; };
+		FB09813B238B6A6600148893 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB09812B238B6A6600148893 /* BaseNavigationViewController.m */; };
+		FB09813C238B6A6600148893 /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB09812C238B6A6600148893 /* BaseTabbarController.m */; };
+		FB09813D238B6A6600148893 /* BaseNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB098130238B6A6600148893 /* BaseNavigationManager.m */; };
+		FB09813E238B6A6600148893 /* UIColor+ColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = FB098132238B6A6600148893 /* UIColor+ColorHex.m */; };
+		FB09813F238B6A6600148893 /* NSObject+LYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FB098133238B6A6600148893 /* NSObject+LYLayout.m */; };
+		FB098140238B6A6600148893 /* TopNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB098138238B6A6600148893 /* TopNavigationBarView.m */; };
+		FB098143238B6B0D00148893 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB098142238B6B0D00148893 /* LoginViewController.m */; };
+		FB098146238B6B2600148893 /* LoginMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB098145238B6B2600148893 /* LoginMainView.m */; };
+		FB2CDB56256F3CA5006C68D1 /* BaseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDB55256F3CA5006C68D1 /* BaseMainViewController.m */; };
+		FB2CDB5A256F3CD4006C68D1 /* BaseMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDB59256F3CD4006C68D1 /* BaseMainScrollView.m */; };
+		FB2CDB5E256F3CF2006C68D1 /* BaseTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDB5D256F3CF2006C68D1 /* BaseTabbarView.m */; };
+		FB2CDB64256F3E5F006C68D1 /* PopularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDB63256F3E5F006C68D1 /* PopularViewController.m */; };
+		FB2CDB69256F3E67006C68D1 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDB68256F3E67006C68D1 /* MatchViewController.m */; };
+		FB2CDB6D256F3E70006C68D1 /* MessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDB6C256F3E70006C68D1 /* MessageListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1423975DD8AF46485E52DBBD /* Pods-HG_ShoppingMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HG_ShoppingMall.debug.xcconfig"; path = "Target Support Files/Pods-HG_ShoppingMall/Pods-HG_ShoppingMall.debug.xcconfig"; sourceTree = "<group>"; };
+		19F7EF4EA150FCA996AE5F20 /* libPods-HG_ShoppingMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HG_ShoppingMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93F3F1D153F96761FE8E62A /* Pods-HG_ShoppingMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HG_ShoppingMall.release.xcconfig"; path = "Target Support Files/Pods-HG_ShoppingMall/Pods-HG_ShoppingMall.release.xcconfig"; sourceTree = "<group>"; };
+		FB097F68238B62A800148893 /* HG_ShoppingMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HG_ShoppingMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB097F6B238B62A800148893 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB097F6C238B62A800148893 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB097F6E238B62A800148893 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB097F6F238B62A800148893 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB097F72238B62A800148893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB097F74238B62A900148893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB097F77238B62A900148893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB097F79238B62A900148893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB097F7A238B62A900148893 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB09805B238B650D00148893 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FB098128238B6A6600148893 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FB098129238B6A6600148893 /* BaseTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarController.h; sourceTree = "<group>"; };
+		FB09812A238B6A6600148893 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		FB09812B238B6A6600148893 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		FB09812C238B6A6600148893 /* BaseTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarController.m; sourceTree = "<group>"; };
+		FB09812D238B6A6600148893 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FB09812F238B6A6600148893 /* BaseNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationManager.h; sourceTree = "<group>"; };
+		FB098130238B6A6600148893 /* BaseNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationManager.m; sourceTree = "<group>"; };
+		FB098132238B6A6600148893 /* UIColor+ColorHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHex.m"; sourceTree = "<group>"; };
+		FB098133238B6A6600148893 /* NSObject+LYLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYLayout.m"; sourceTree = "<group>"; };
+		FB098134238B6A6600148893 /* UIColor+ColorHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHex.h"; sourceTree = "<group>"; };
+		FB098135238B6A6600148893 /* NSObject+LYLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYLayout.h"; sourceTree = "<group>"; };
+		FB098136238B6A6600148893 /* SizeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeHeader.h; sourceTree = "<group>"; };
+		FB098138238B6A6600148893 /* TopNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopNavigationBarView.m; sourceTree = "<group>"; };
+		FB098139238B6A6600148893 /* TopNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopNavigationBarView.h; sourceTree = "<group>"; };
+		FB098141238B6B0D00148893 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FB098142238B6B0D00148893 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FB098144238B6B2600148893 /* LoginMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginMainView.h; sourceTree = "<group>"; };
+		FB098145238B6B2600148893 /* LoginMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginMainView.m; sourceTree = "<group>"; };
+		FB2CDB54256F3CA5006C68D1 /* BaseMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMainViewController.h; sourceTree = "<group>"; };
+		FB2CDB55256F3CA5006C68D1 /* BaseMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMainViewController.m; sourceTree = "<group>"; };
+		FB2CDB58256F3CD4006C68D1 /* BaseMainScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMainScrollView.h; sourceTree = "<group>"; };
+		FB2CDB59256F3CD4006C68D1 /* BaseMainScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMainScrollView.m; sourceTree = "<group>"; };
+		FB2CDB5C256F3CF2006C68D1 /* BaseTabbarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabbarView.h; sourceTree = "<group>"; };
+		FB2CDB5D256F3CF2006C68D1 /* BaseTabbarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarView.m; sourceTree = "<group>"; };
+		FB2CDB62256F3E5F006C68D1 /* PopularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopularViewController.h; sourceTree = "<group>"; };
+		FB2CDB63256F3E5F006C68D1 /* PopularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopularViewController.m; sourceTree = "<group>"; };
+		FB2CDB67256F3E67006C68D1 /* MatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		FB2CDB68256F3E67006C68D1 /* MatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		FB2CDB6B256F3E70006C68D1 /* MessageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageListViewController.h; sourceTree = "<group>"; };
+		FB2CDB6C256F3E70006C68D1 /* MessageListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB097F65238B62A800148893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8D232DFA0C767C0AC38326 /* libPods-HG_ShoppingMall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F8661F07E1ECBFFB3C058C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19F7EF4EA150FCA996AE5F20 /* libPods-HG_ShoppingMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49D487FDA7C6C516B24FE46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1423975DD8AF46485E52DBBD /* Pods-HG_ShoppingMall.debug.xcconfig */,
+				C93F3F1D153F96761FE8E62A /* Pods-HG_ShoppingMall.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB097F5F238B62A800148893 = {
+			isa = PBXGroup;
+			children = (
+				FB097F6A238B62A800148893 /* HG_ShoppingMall */,
+				FB097F69238B62A800148893 /* Products */,
+				D49D487FDA7C6C516B24FE46 /* Pods */,
+				6F8661F07E1ECBFFB3C058C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB097F69238B62A800148893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB097F68238B62A800148893 /* HG_ShoppingMall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB097F6A238B62A800148893 /* HG_ShoppingMall */ = {
+			isa = PBXGroup;
+			children = (
+				FB097F81238B632900148893 /* Other */,
+				FB098040238B643800148893 /* BaseTabbarControllerManager */,
+				FB09805C238B657000148893 /* Classes */,
+				FB097F82238B635500148893 /* Resource */,
+				FB097F79238B62A900148893 /* Info.plist */,
+			);
+			path = HG_ShoppingMall;
+			sourceTree = "<group>";
+		};
+		FB097F81238B632900148893 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FB097F7A238B62A900148893 /* main.m */,
+				FB097F6B238B62A800148893 /* AppDelegate.h */,
+				FB097F6C238B62A800148893 /* AppDelegate.m */,
+				FB097F6E238B62A800148893 /* ViewController.h */,
+				FB097F6F238B62A800148893 /* ViewController.m */,
+				FB097F71238B62A800148893 /* Main.storyboard */,
+				FB097F76238B62A900148893 /* LaunchScreen.storyboard */,
+				FB09805B238B650D00148893 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FB097F82238B635500148893 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FB097F74238B62A900148893 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FB098040238B643800148893 /* BaseTabbarControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				FB098127238B6A6600148893 /* Controller */,
+				FB09812E238B6A6600148893 /* Manager */,
+				FB098131238B6A6600148893 /* Marco_Helper */,
+				FB098137238B6A6600148893 /* View */,
+			);
+			path = BaseTabbarControllerManager;
+			sourceTree = "<group>";
+		};
+		FB09805C238B657000148893 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB2CDB60256F3E45006C68D1 /* ChildMoudle */,
+				FB09805D238B657300148893 /* Login_Moudle */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB09805D238B657300148893 /* Login_Moudle */ = {
+			isa = PBXGroup;
+			children = (
+				FB098060238B658900148893 /* Controller */,
+				FB09805F238B658500148893 /* View */,
+				FB09805E238B657C00148893 /* Model */,
+			);
+			path = Login_Moudle;
+			sourceTree = "<group>";
+		};
+		FB09805E238B657C00148893 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB09805F238B658500148893 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB098144238B6B2600148893 /* LoginMainView.h */,
+				FB098145238B6B2600148893 /* LoginMainView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB098060238B658900148893 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB098141238B6B0D00148893 /* LoginViewController.h */,
+				FB098142238B6B0D00148893 /* LoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB098127238B6A6600148893 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB098129238B6A6600148893 /* BaseTabbarController.h */,
+				FB09812C238B6A6600148893 /* BaseTabbarController.m */,
+				FB09812D238B6A6600148893 /* BaseViewController.h */,
+				FB098128238B6A6600148893 /* BaseViewController.m */,
+				FB09812A238B6A6600148893 /* BaseNavigationViewController.h */,
+				FB09812B238B6A6600148893 /* BaseNavigationViewController.m */,
+				FB2CDB54256F3CA5006C68D1 /* BaseMainViewController.h */,
+				FB2CDB55256F3CA5006C68D1 /* BaseMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB09812E238B6A6600148893 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FB09812F238B6A6600148893 /* BaseNavigationManager.h */,
+				FB098130238B6A6600148893 /* BaseNavigationManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FB098131238B6A6600148893 /* Marco_Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FB098134238B6A6600148893 /* UIColor+ColorHex.h */,
+				FB098132238B6A6600148893 /* UIColor+ColorHex.m */,
+				FB098135238B6A6600148893 /* NSObject+LYLayout.h */,
+				FB098133238B6A6600148893 /* NSObject+LYLayout.m */,
+				FB098136238B6A6600148893 /* SizeHeader.h */,
+			);
+			path = Marco_Helper;
+			sourceTree = "<group>";
+		};
+		FB098137238B6A6600148893 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB098139238B6A6600148893 /* TopNavigationBarView.h */,
+				FB098138238B6A6600148893 /* TopNavigationBarView.m */,
+				FB2CDB58256F3CD4006C68D1 /* BaseMainScrollView.h */,
+				FB2CDB59256F3CD4006C68D1 /* BaseMainScrollView.m */,
+				FB2CDB5C256F3CF2006C68D1 /* BaseTabbarView.h */,
+				FB2CDB5D256F3CF2006C68D1 /* BaseTabbarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB2CDB60256F3E45006C68D1 /* ChildMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				FB2CDB61256F3E50006C68D1 /* Controller */,
+			);
+			path = ChildMoudle;
+			sourceTree = "<group>";
+		};
+		FB2CDB61256F3E50006C68D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB2CDB62256F3E5F006C68D1 /* PopularViewController.h */,
+				FB2CDB63256F3E5F006C68D1 /* PopularViewController.m */,
+				FB2CDB67256F3E67006C68D1 /* MatchViewController.h */,
+				FB2CDB68256F3E67006C68D1 /* MatchViewController.m */,
+				FB2CDB6B256F3E70006C68D1 /* MessageListViewController.h */,
+				FB2CDB6C256F3E70006C68D1 /* MessageListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB097F67238B62A800148893 /* HG_ShoppingMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB097F7E238B62A900148893 /* Build configuration list for PBXNativeTarget "HG_ShoppingMall" */;
+			buildPhases = (
+				E4322CFBC8B3E98374831C92 /* [CP] Check Pods Manifest.lock */,
+				FB097F64238B62A800148893 /* Sources */,
+				FB097F65238B62A800148893 /* Frameworks */,
+				FB097F66238B62A800148893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HG_ShoppingMall;
+			productName = HG_ShoppingMall;
+			productReference = FB097F68238B62A800148893 /* HG_ShoppingMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB097F60238B62A800148893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Lindashuai;
+				TargetAttributes = {
+					FB097F67238B62A800148893 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = FB097F63238B62A800148893 /* Build configuration list for PBXProject "HG_ShoppingMall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB097F5F238B62A800148893;
+			productRefGroup = FB097F69238B62A800148893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB097F67238B62A800148893 /* HG_ShoppingMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB097F66238B62A800148893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB097F78238B62A900148893 /* LaunchScreen.storyboard in Resources */,
+				FB097F75238B62A900148893 /* Assets.xcassets in Resources */,
+				FB097F73238B62A800148893 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4322CFBC8B3E98374831C92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HG_ShoppingMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB097F64238B62A800148893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB09813F238B6A6600148893 /* NSObject+LYLayout.m in Sources */,
+				FB2CDB6D256F3E70006C68D1 /* MessageListViewController.m in Sources */,
+				FB09813C238B6A6600148893 /* BaseTabbarController.m in Sources */,
+				FB097F70238B62A800148893 /* ViewController.m in Sources */,
+				FB097F7B238B62A900148893 /* main.m in Sources */,
+				FB2CDB56256F3CA5006C68D1 /* BaseMainViewController.m in Sources */,
+				FB09813A238B6A6600148893 /* BaseViewController.m in Sources */,
+				FB098146238B6B2600148893 /* LoginMainView.m in Sources */,
+				FB2CDB5A256F3CD4006C68D1 /* BaseMainScrollView.m in Sources */,
+				FB2CDB69256F3E67006C68D1 /* MatchViewController.m in Sources */,
+				FB2CDB64256F3E5F006C68D1 /* PopularViewController.m in Sources */,
+				FB09813D238B6A6600148893 /* BaseNavigationManager.m in Sources */,
+				FB097F6D238B62A800148893 /* AppDelegate.m in Sources */,
+				FB098140238B6A6600148893 /* TopNavigationBarView.m in Sources */,
+				FB09813B238B6A6600148893 /* BaseNavigationViewController.m in Sources */,
+				FB2CDB5E256F3CF2006C68D1 /* BaseTabbarView.m in Sources */,
+				FB098143238B6B0D00148893 /* LoginViewController.m in Sources */,
+				FB09813E238B6A6600148893 /* UIColor+ColorHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB097F71238B62A800148893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB097F72238B62A800148893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB097F76238B62A900148893 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB097F77238B62A900148893 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB097F7C238B62A900148893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB097F7D238B62A900148893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB097F7F238B62A900148893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1423975DD8AF46485E52DBBD /* Pods-HG_ShoppingMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHTKR9CHL2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HG_ShoppingMall/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = HG_ShoppingMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lindashuai.LDSTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB097F80238B62A900148893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93F3F1D153F96761FE8E62A /* Pods-HG_ShoppingMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHTKR9CHL2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HG_ShoppingMall/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = HG_ShoppingMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lindashuai.LDSTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB097F63238B62A800148893 /* Build configuration list for PBXProject "HG_ShoppingMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB097F7C238B62A900148893 /* Debug */,
+				FB097F7D238B62A900148893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB097F7E238B62A900148893 /* Build configuration list for PBXNativeTarget "HG_ShoppingMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB097F7F238B62A900148893 /* Debug */,
+				FB097F80238B62A900148893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB097F60238B62A800148893 /* Project object */;
+}
